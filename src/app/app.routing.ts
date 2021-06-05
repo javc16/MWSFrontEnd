@@ -5,8 +5,15 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { TestComponentComponent } from './components/test-component/test-component.component';
+import { ProveedorComponent } from './components/proveedor/proveedor.component';
 
 const routes: Routes =[
+
+  {
+    path: 'proveedor',
+    component: ProveedorComponent,
+  },
+
   {
     path: '',
     redirectTo: 'dashboard',

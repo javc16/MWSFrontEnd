@@ -7,6 +7,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { TestComponentComponent } from './components/test-component/test-component.component';
 import { ProveedorComponent } from './components/proveedor/proveedor.component';
 import { TipoArticuloComponent } from './components/tipo-articulo/tipo-articulo.component';
+import { TipoUsuarioComponent } from './components/tipo-usuario/tipo-usuario.component';
 
 const routes: Routes =[
 
@@ -19,7 +20,10 @@ const routes: Routes =[
     path: 'tipoArticulo',
     component: TipoArticuloComponent,
   },
-
+  {
+    path: 'tipoUsuario',
+    component: TipoUsuarioComponent,
+  },
   {
     path: '',
     redirectTo: 'dashboard',

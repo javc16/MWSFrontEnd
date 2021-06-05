@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { TestComponentComponent } from './test-component/test-component.component';
 import { ProveedorComponent } from './proveedor/proveedor.component';
 import { TipoArticuloComponent } from './tipo-articulo/tipo-articulo.component';
+import { TipoUsuarioComponent } from './tipo-usuario/tipo-usuario.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { TipoArticuloComponent } from './tipo-articulo/tipo-articulo.component';
     SidebarComponent,
     TestComponentComponent,
     ProveedorComponent,
-    TipoArticuloComponent
+    TipoArticuloComponent,
+    TipoUsuarioComponent
   ],
   exports: [
     FooterComponent,

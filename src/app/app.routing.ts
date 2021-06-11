@@ -28,11 +28,13 @@ const routes: Routes =[
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  },  {
+  },
+  {
     path: 'hola',
     component: TestComponentComponent,
 
-  }, {
+  }, 
+  {
     path: '',
     component: AdminLayoutComponent,
     children: [{

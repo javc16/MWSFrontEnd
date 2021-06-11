@@ -9,7 +9,7 @@ import { TipoUsuarioService } from 'app/Servicios/TipoUsuario/tipo-usuario.servi
 })
 export class TipoUsuarioComponent implements OnInit {
   tipoUssuarios: TipoUsuario[];
-
+  displayedColumns: string[] = ['id', 'descripcion','action'];
   constructor(private _tipoUsuarioService:TipoUsuarioService) {}
 
   ngOnInit(): void {
